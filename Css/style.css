@@ -31,3 +31,77 @@ body {
     background: rgb(7,63,106);
     background: linear-gradient(40deg, rgba(7,63,106,1) 41%, rgba(20,138,223,1) 100%);
 }
+#header{
+    background: rgb(7,63,106);
+    background: linear-gradient(40deg, rgba(7,63,106,1) 41%, rgba(20,138,223,1) 100%);
+}
+.logo{
+    letter-spacing: 5px;
+}
+.divider1{
+    margin-top:0px;
+    width:800px;
+    margin:0 auto;
+    border-top:px solid rgba(0,0,0,.1);
+}
+.divider{
+    width: 530px;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+ .fa {
+    font-size: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  
+  .fa {
+    font-size: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      color: white;
+      background-color: var(--blue);
+      opacity: 0.8;
+  }
+  .fa-instagram:hover{
+    background-color: #C13584;
+    color: white
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 15px 17px;
+    
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 17px 15px;
+  }
+
+  .fa-instagram {
+    background: #E1306C;
+    color: white;
+    padding: 16px 15px;
+  }
+  .order-menu-header {
+    background: rgb(7,63,106);
+    background: linear-gradient(40deg, rgba(7,63,106,1) 41%, rgba(20,138,223,1) 100%);
+}
