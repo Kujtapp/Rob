@@ -6,6 +6,14 @@
     --gray: #9DA0A3;
     --pink: #EC497C;
 }
+.btn-primary{
+    background-color: var(--blue) !important;
+    border-color: var(--blue) !important;
+}
+.btn-secondary{
+    background-color: var(--pink) !important;
+    border-color: var(--pink) !important;
+}
 h1,h2,h3,h4,h5,p{
     font-family: 'Poppins', sans-serif;
 }
@@ -15,6 +23,10 @@ h1,h2,h3,h4,h5,p{
 }
 body {
     font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background: rgb(7,63,106);
+    background: linear-gradient(40deg, rgba(7,63,106,1) 41%, rgba(20,138,223,1) 100%);
 }
 
 .title {
@@ -38,14 +50,8 @@ body {
 .logo{
     letter-spacing: 5px;
 }
-.divider1{
-    margin-top:0px;
-    width:800px;
-    margin:0 auto;
-    border-top:px solid rgba(0,0,0,.1);
-}
 .divider{
-    width: 50%;
+    border-top: 2px solid rgba(0,0,0,.1);
 }
 .fa {
     padding: 15px;
@@ -104,4 +110,21 @@ body {
   .order-menu-header {
     background: rgb(7,63,106);
     background: linear-gradient(40deg, rgba(7,63,106,1) 41%, rgba(20,138,223,1) 100%);
+}
+
+/*-----Media Queries-----*/
+@media only screen and (max-width: 992px) {
+    .order-section h3 p{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .order-section{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 600px) {
+    .order-section h3 p{
+        text-align: center;
+    }
 }
