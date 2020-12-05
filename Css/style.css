@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
-
+html{
+    scroll-behavior: smooth ;
+}
 :root {
     --blue: #007bff;
     --gray: #9DA0A3;
@@ -24,6 +26,7 @@ h1,h2,h3,h4,h5,p{
 body {
     font-family: 'Poppins', sans-serif;
 }
+
 .navbar{
     background: rgb(7,63,106);
     background: linear-gradient(40deg, rgba(7,63,106,1) 41%, rgba(20,138,223,1) 100%);

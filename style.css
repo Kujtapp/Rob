@@ -38,9 +38,11 @@ body {
 .subtitle {
     color: var(--gray);
 }
-/* .Review-section:hover{
-    background-color: var(--blue);
-} */
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    cursor: pointer;
+}
 
 .order-menu-header {
     background: rgb(7,63,106);
@@ -62,7 +64,7 @@ body {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-  }
+}
   
  .fa {
     font-size: 0px;
@@ -114,20 +116,8 @@ body {
     background: rgb(7,63,106);
     background: linear-gradient(40deg, rgba(7,63,106,1) 41%, rgba(20,138,223,1) 100%);
 }
-
-/*-----Media Queries-----*/
-@media only screen and (max-width: 992px) {
-    .order-section h3 p{
-        text-align: center;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .order-section{
-        text-align: center;
-    }
-}
-@media screen and (min-width: 600px) {
-    .order-section h3 p{
-        text-align: center;
-    }
+.nav-bar-nav .navbar-nav .nav-item .nav-link:hover {
+    border: 1px solid var(--pink);
+    background-color: var(--pink);
+    padding: 7px;
 }
