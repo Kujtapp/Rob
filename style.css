@@ -6,7 +6,7 @@ html{
 :root {
     --blue: #007bff;
     --gray: #9DA0A3;
-    --pink: #EC497C;
+    --pink: #ed3a77;
 }
 .btn-primary{
     background-color: var(--blue) !important;
@@ -37,6 +37,10 @@ body {
 }
 .subtitle {
     color: var(--gray);
+}
+.header-title{
+    color: var(--pink);
+    font-size: 60px;
 }
 .card:hover{
     transform: scale(1.02);
